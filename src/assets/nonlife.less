@@ -1,0 +1,145 @@
+.tableNonLife{
+  table{
+    th{
+      &:nth-child(2){
+        width: 130px;
+      }
+    }
+    .btn-confirm{
+      background-color: #FF7900;
+    }
+    .btn-cancel{
+      background-color: transparent;
+      border: 1px solid #FF7900;
+    }
+  }
+}
+.searchPage{
+  form{
+    width: 100%;
+    .searchBox{
+      >*{
+        flex: 1;
+        margin-right: 15px;
+        &:last-child{
+          margin-right: 0 ;
+        }
+      }
+    }
+    .btn-search{
+      margin: 0 0 0 auto;
+      display: flex;
+      justify-content: space-between;
+      height: 36px;
+      width: calc(100% / 4);
+      span{
+        padding-left: 30px;
+      }
+    }
+  }
+  .number-box{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    .total{
+      line-height: 3;
+      width: 300px;
+      div{
+        display: flex;
+        span{
+          flex: 1;
+          text-transform: uppercase;
+        }
+        .number{
+          color: var(--primary_color);
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.nonLifePage{
+  .box-pagination{
+    display: flex;
+    justify-content: space-between;
+    .btn-footer{
+      display: flex;
+      .btn{
+        margin-top: 40px;
+        height: 36px;
+        margin-left: 20px;
+        padding: 20px;
+        text-transform: uppercase;
+        span{
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+.listReportNonLife{
+  .searchPage {
+    form{
+      width: auto;
+    }
+  }
+  .btn-export{
+    height: 36px;
+    text-transform: uppercase;
+    margin: 50px 0 30px 0;
+    span{
+      margin-right: 30px;
+    }
+  }
+  table{
+    tr{
+      td{
+        &:last-child{
+          width: 200px !important;
+        }
+      }
+    }
+  }
+}
+.productPage{
+  .tabs{
+    a{
+      width: 30%;
+      text-align: center;
+    }
+  }
+  .page-content{
+    padding-bottom: 10px;
+  }
+  .listCourse{
+    th{
+      border: none;
+      background-color: #1E263E;
+    }
+    tr{
+      td{
+        &:first-child{
+          width: unset ;
+        }
+        &:last-child{
+          width: 250px;
+          .btn{
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+.formCreateProduct{
+  .search-box{
+    flex: 2;
+    padding: 0 20px !important;
+    button{
+      color: #fff
+    }
+  }
+}
+.btn-export-top{
+  margin-top: 0 !important;
+}

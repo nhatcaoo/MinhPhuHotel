@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.18" height="20.905" viewBox="0 0 17.18 20.905">
+  <g id="booking" transform="translate(0)">
+    <g id="Group_3830" data-name="Group 3830" transform="translate(0)">
+      <g id="Group_3829" data-name="Group 3829" transform="translate(0)">
+        <rect id="Rectangle_6067" data-name="Rectangle 6067" width="2.911" height="0.728" transform="translate(5.232 15.352)" fill="#0f97e1"/>
+        <rect id="Rectangle_6068" data-name="Rectangle 6068" width="4.367" height="0.728" transform="translate(4.435 17.629)" fill="#0f97e1"/>
+        <path id="Path_7056" data-name="Path 7056" d="M68.252,0H61.471A2.223,2.223,0,0,0,59.21,2.178V3.484H53.785a.444.444,0,0,0-.452.436v16.55a.444.444,0,0,0,.452.436H66.444a.444.444,0,0,0,.452-.436V18.727h1.356a2.223,2.223,0,0,0,2.261-2.178V2.178A2.223,2.223,0,0,0,68.252,0Zm-2.26,20.034H54.237V4.355h6.329v6.533a.425.425,0,0,0,.09.261.464.464,0,0,0,.633.087l1.537-1.111,1.537,1.111a.463.463,0,0,0,.271.087.444.444,0,0,0,.452-.436V4.355h.9ZM61.471,4.355h2.713v5.662L63.1,9.233a.466.466,0,0,0-.543,0l-1.085.784V4.355Zm4.973-.871H60.115V2.178A1.332,1.332,0,0,1,61.471.871H67.8V17.856h-.9V3.92A.444.444,0,0,0,66.444,3.484ZM69.609,16.55a1.311,1.311,0,0,1-.9,1.232V.946a1.311,1.311,0,0,1,.9,1.232Z" transform="translate(-53.333)" fill="#0f97e1"/>
+        <path id="Path_7057" data-name="Path 7057" d="M99.639,129.456v-.728H96.728V128H96v1.092a.364.364,0,0,0,.364.364h1.307l-.472.472.515.515.987-.987h.939Z" transform="translate(-94.544 -122.634)" fill="#0f97e1"/>
+        <rect id="Rectangle_6069" data-name="Rectangle 6069" width="0.728" height="0.728" transform="translate(1.82 17.629)" fill="#0f97e1"/>
+        <rect id="Rectangle_6070" data-name="Rectangle 6070" width="0.728" height="0.728" transform="translate(10.511 17.629)" fill="#0f97e1"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/images/favicon.png">
+    <meta name="viewport" content="width=1920,initial-scale=1,user-scalable=yes,target-densitydpi=device-dpi,minimal-ui,uc-fitscreen=no">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      'use strict';
+
+      !function (w) {
+        InitView();
+        w.addEventListener('onorientationchange', function () {
+          InitView()
+        }, false);
+        w.addEventListener('resize', function () {
+          InitView()
+        }, false);
+
+        function InitView() {
+          var t = 1920,
+            w = screen.width,
+            h = screen.height,
+            a = w / t,
+            n = window.viewMeta || document.createElement('meta');
+          w.viewMeta || document.getElementsByTagName("head")[0].appendChild(n);
+          n.setAttribute('name', 'viewport');
+          n.setAttribute('content', "width=" + t + ", initial-scale=" + a + ",maximum-scale=" + a + ",minimum-scale=" + a + ", user-scalable=no,target-densitydpi=device-dpi,minimal-ui,uc-fitscreen=no");
+          window.viewMeta = n;
+          window.viewPortNum = a;
+
+          const getDeviceType = () => {
+            const ua = navigator.userAgent;
+            if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+              return "tablet";
+            }
+            if (
+              /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+                ua
+              )
+            ) {
+              return "mobile"
+            }
+            return "desktop"
+          }
+          if (getDeviceType() === 'desktop') {
+            document.getElementsByTagName("html")[0].style.zoom = a;
+          }
+
+        }
+
+        w.showPlaceholder = 1;
+
+      }(window);
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but GNG Admin doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script>
+      history.pushState({}, "title page", location.hash.substring(1));
+    </script>
+  </body>
+</html>
